@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">Pong</string>
+    <string name="menu_play">Jugar</string>
+    <string name="menu_options">Opciones</string>
+    <string name="menu_exit">Salir</string>
+    <string name="sonidoMenu">Sonido</string>
+    <string name="vibracionMenu">Vibración</string>
+    <string name="accel">Acelerómetro</string>
+    <string name="gameover">Juego Terminado</string>
+    <string name="restart">Reiniciar</string>
+    <string name="HvC">HUM vs CPU</string>
+    <string name="HvH">HUM vs HUM</string>
+    <string name="gametype">Tipo de Juego</string>
+    <string-array name="gameArray">
+        <item>HUM vs CPU</item>
+        <item>HUM vs HUM</item>
+        <item>CPU vs CPU</item>
+    </string-array>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <ImageView
+        android:id="@+id/pong_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dip"
+        android:layout_marginTop="40dip"
+        android:src="@drawable/pong" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dip"
+        android:background="@drawable/button_bg"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/menu_play"
+        android:textAppearance="?android:attr/textAppearanceLarge" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/options_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dip"
+        android:background="@drawable/button_bg"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/menu_options"
+        android:textAppearance="?android:attr/textAppearanceLarge" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+         android:layout_marginBottom="45dip"
+        android:background="@drawable/button_bg"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/menu_exit"
+        android:textAppearance="?android:attr/textAppearanceLarge" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:src="@drawable/vc" >
+    </ImageView>
+
+</LinearLayout>
